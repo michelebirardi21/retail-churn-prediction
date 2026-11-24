@@ -1,0 +1,25 @@
+A,B,metrica,differenza A-B,IC95% basso,IC95% alto,A migliore di B (% campioni)
+LightGBM,Regressione logistica,ROC-AUC,-0.003,-0.0084,0.0025,14.7
+LightGBM,Regressione logistica,PR-AUC,-0.0172,-0.0315,-0.0033,0.9
+LightGBM,Regressione logistica,Brier,0.0075,0.0052,0.0096,0.0
+LightGBM,Regressione logistica,LogLoss,0.017,0.0117,0.0219,0.0
+LightGBM,Baseline (solo recency),ROC-AUC,0.1066,0.0859,0.1278,100.0
+LightGBM,Baseline (solo recency),PR-AUC,0.0866,0.0564,0.1149,100.0
+LightGBM,Baseline (solo recency),Brier,-0.0374,-0.0443,-0.0312,100.0
+LightGBM,Baseline (solo recency),LogLoss,-0.0859,-0.1017,-0.0718,100.0
+Regressione logistica,Baseline (solo recency),ROC-AUC,0.1096,0.0892,0.1304,100.0
+Regressione logistica,Baseline (solo recency),PR-AUC,0.1039,0.0729,0.1343,100.0
+Regressione logistica,Baseline (solo recency),Brier,-0.0449,-0.052,-0.0386,100.0
+Regressione logistica,Baseline (solo recency),LogLoss,-0.1029,-0.1189,-0.0882,100.0
+LightGBM + stagionalità,LightGBM,ROC-AUC,-0.0028,-0.0075,0.002,12.7
+LightGBM + stagionalità,LightGBM,PR-AUC,0.0127,-0.0056,0.0296,91.2
+LightGBM + stagionalità,LightGBM,Brier,-0.0173,-0.0223,-0.0118,100.0
+LightGBM + stagionalità,LightGBM,LogLoss,-0.0388,-0.0501,-0.0268,100.0
+LightGBM + Platt,LightGBM,ROC-AUC,0.0,0.0,0.0,0.0
+LightGBM + Platt,LightGBM,PR-AUC,0.0,0.0,0.0,0.0
+LightGBM + Platt,LightGBM,Brier,-0.0001,-0.0008,0.0005,66.8
+LightGBM + Platt,LightGBM,LogLoss,-0.0007,-0.0027,0.0013,75.1
+LightGBM + isotonica,LightGBM,ROC-AUC,-0.0005,-0.0018,0.001,28.6
+LightGBM + isotonica,LightGBM,PR-AUC,-0.0067,-0.015,-0.0003,1.9
+LightGBM + isotonica,LightGBM,Brier,0.0009,-0.0004,0.002,8.5
+LightGBM + isotonica,LightGBM,LogLoss,0.0112,0.0008,0.0257,1.2

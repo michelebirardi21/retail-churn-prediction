@@ -1,0 +1,6 @@
+A,meno B,differenza (£),IC95% basso,IC95% alto
+"LightGBM, regola di valore atteso (p x 0.2 x valore > costo)",Contatta tutti,927.3,787.5,1065.8
+"LightGBM, regola di valore atteso (p x 0.2 x valore > costo)","Solo valore, senza modello (54% x 0.2 x valore > costo)",266.4,121.9,425.4
+"LightGBM + Platt, regola di valore atteso","LightGBM, regola di valore atteso (p x 0.2 x valore > costo)",498.2,248.5,689.1
+"LightGBM, regola di valore atteso (p x 0.2 x valore > costo)","Regressione logistica, regola di valore atteso",-444.9,-592.3,-313.5
+"Solo valore, senza modello (54% x 0.2 x valore > costo)",Contatta tutti,660.9,497.3,819.7

@@ -1,0 +1,14 @@
+# Dati grezzi e database (pesanti / non ridistribuibili)
+data/
+
+# File temporanei di Python e pytest
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Eventuale ambiente virtuale e impostazioni locali
+.venv/
+venv/
+.DS_Store
+.vscode/
+esplora.ipynb

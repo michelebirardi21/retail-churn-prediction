@@ -1,0 +1,7 @@
+modello,ROC-AUC,PR-AUC,Brier,LogLoss
+Baseline (solo recency),0.655,0.5286,0.247,0.6868
+Regressione logistica,0.7646,0.6324,0.2021,0.5839
+LightGBM,0.7616,0.6152,0.2096,0.6009
+LightGBM + stagionalità,0.7587,0.628,0.1923,0.5621
+LightGBM + isotonica,0.7611,0.6085,0.2104,0.6121
+LightGBM + Platt,0.7616,0.6152,0.2094,0.6003

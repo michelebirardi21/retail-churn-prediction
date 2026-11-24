@@ -1,0 +1,10 @@
+strategia,clienti contattati (%),churner raggiunti (%),profitto test (£),profitto per cliente (£)
+Non fare nulla,0.0,0.0,0.0,0.0
+Contatta tutti,100.0,100.0,9343.83,3.36
+"Baseline recency, soglia 0.00 (scelta su val)",100.0,100.0,9343.83,3.36
+"LightGBM, soglia 0.09 (scelta su val)",94.65,99.91,9992.26,3.59
+"LightGBM, regola di valore atteso (p x 0.2 x valore > costo)",86.7,81.14,10271.12,3.69
+"Regressione logistica, soglia 0.09 (scelta su val)",92.81,99.63,9958.49,3.58
+"Regressione logistica, regola di valore atteso",82.03,79.08,10716.01,3.85
+"LightGBM + Platt, regola di valore atteso",82.11,81.14,10769.37,3.87
+"Solo valore, senza modello (54% x 0.2 x valore > costo)",80.88,68.07,10004.69,3.59
